@@ -10,7 +10,7 @@ Given the provided CSV file, the task is to determine the species with the large
 sanjuanensis
 
 
-#Solution Overview (Task1.py):
+# Solution Overview (Task1.py):
 
 find_species_with_largest_length(file_path): This function takes the file path of the CSV file as input and returns the species with the largest average length.
 The CSV file is read using the csv.DictReader module.
@@ -23,7 +23,7 @@ Given the same CSV file, this task involves grouping dinosaurs based on the lett
 **Example Output:**
 [['allosaurus', 'aralosaurus'], ['austrosaurus', 'torosaurus']]
 
-#Solution Overview (Task2.py):
+# Solution Overview (Task2.py):
 
 signature(name): This function calculates the signature of a dinosaur name by removing spaces, converting to lowercase, and sorting alphabetically.
 group_dinosaurs(csv_file): This function groups dinosaurs based on their signatures and returns a list of lists where each sublist contains names of dinosaurs that can be made using the same letters.
